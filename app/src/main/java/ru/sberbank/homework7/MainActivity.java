@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.add(R.id.first_frame_layout, FirstFragment.newInstance());
-        fragmentTransaction.add(R.id.second_frame_layout, new SecondFragment());
+        fragmentTransaction.add(R.id.second_frame_layout, SecondFragment.newInstance());
         fragmentTransaction.add(R.id.third_frame_layout, new ThirdFragment());
         fragmentTransaction.commit();
     }

@@ -6,10 +6,12 @@
     android:id="@+id/second_fragment"
     tools:context=".fragments.SecondFragment">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:gravity="center"
+        android:textSize="@dimen/text_size"
+        android:id="@+id/textView_num"
+        android:text="@string/some_integer_here" />
 
 </FrameLayout>
