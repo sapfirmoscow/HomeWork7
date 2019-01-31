@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">HomeWork7 Multithreading </string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_fragment">First fragment</string>
 </resources>
