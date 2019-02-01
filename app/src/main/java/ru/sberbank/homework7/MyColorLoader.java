@@ -27,7 +27,6 @@ public class MyColorLoader extends AsyncTaskLoader<Integer> {
             e.printStackTrace();
         }
         return getRandomColor();
-
     }
 
     private Integer getRandomColor() {
