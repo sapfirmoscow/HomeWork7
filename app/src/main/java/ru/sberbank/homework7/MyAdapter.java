@@ -37,7 +37,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
 
     public void setData(Integer color) {
         mListData.add(color);
-        notifyDataSetChanged();
+        notifyItemInserted(mListData.size());
     }
 
     class MyViewHolder extends RecyclerView.ViewHolder {
